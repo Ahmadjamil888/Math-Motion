@@ -52,8 +52,8 @@ Math Motion Application
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd animatics
+git clone https://github.com/Ahmadjamil888/Math-Motion.git
+cd Math-Motion
 ```
 
 2. Install Python dependencies:
