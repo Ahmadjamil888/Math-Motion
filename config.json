@@ -1,0 +1,85 @@
+{
+  "app": {
+    "name": "Math Motion",
+    "version": "0.1.0",
+    "window": {
+      "width": 1400,
+      "height": 900,
+      "maximized": false
+    }
+  },
+  "rendering": {
+    "default_resolution": "1080p",
+    "default_fps": 60,
+    "default_quality": "high",
+    "output_directory": "output",
+    "temp_directory": "temp"
+  },
+  "math": {
+    "default_domain_min": -10.0,
+    "default_domain_max": 10.0,
+    "default_points": 1000,
+    "supported_functions": [
+      "sin", "cos", "tan", "asin", "acos", "atan",
+      "sinh", "cosh", "tanh", "exp", "log", "log10",
+      "sqrt", "abs", "power", "floor", "ceil"
+    ]
+  },
+  "audio": {
+    "supported_formats": ["mp3", "wav", "ogg", "flac", "m4a"],
+    "default_sample_rate": 44100,
+    "beat_detection": {
+      "hop_length": 512,
+      "start_bpm": 120.0
+    },
+    "energy_analysis": {
+      "hop_length": 512,
+      "n_mfcc": 13,
+      "n_fft": 2048
+    }
+  },
+  "animation": {
+    "default_duration": 10.0,
+    "default_fps": 60,
+    "styles": {
+      "minimal": {
+        "background": "#ffffff",
+        "line": "#000000",
+        "axes": "#333333"
+      },
+      "cinematic": {
+        "background": "#1a1a2e",
+        "line": "#00d4ff",
+        "axes": "#ffffff"
+      },
+      "neon": {
+        "background": "#0a0a0a",
+        "line": "#ff00ff",
+        "axes": "#00ffff"
+      },
+      "scientific": {
+        "background": "#f8f9fa",
+        "line": "#e74c3c",
+        "axes": "#2c3e50"
+      }
+    }
+  },
+  "ui": {
+    "theme": "dark",
+    "font_size": 12,
+    "font_family": "Arial",
+    "preview": {
+      "show_axes": true,
+      "show_grid": true,
+      "auto_update": true
+    }
+  },
+  "paths": {
+    "assets": "assets",
+    "music": "assets/music",
+    "fonts": "assets/fonts",
+    "textures": "assets/textures",
+    "projects": "projects",
+    "output": "output"
+  }
+}
